@@ -1,0 +1,14 @@
+alias vi='vim'
+
+alias l='ls -CF'
+alias ll='ls -l'
+alias la='ls -A'
+
+alias grep="grep --color"
+alias grepi="grep -i"
+alias 'ps?'='ps ax | grep -i '
+alias 'svs'="svn stat | grep -v \"? \""
+alias tkdiff="svn diff --diff-cmd fmdiff"
+alias tksvn="svn diff --diff-cmd fmdiff"
+alias spg="svn pg svn:externals"
+alias spe="svn pe svn:externals"
